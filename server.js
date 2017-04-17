@@ -31,6 +31,13 @@ app.get('/whoweare', function(req, res) {
   res.end();
 });
 
+app.get('/perennial', function(req, res) {
+  var htmlPage = fs.readFileSync(path.join(__dirname, '/public/perennial.html')).toString();
+  htmlPage = addNavBar(htmlPage);
+  res.write(htmlPage);
+  res.end();
+});
+
 app.get('/navigationbar', function(req, res) {
   var htmlPage = fs.readFileSync(path.join(__dirname, '/public/navigationbar.html')).toString();
   res.write(htmlPage);
