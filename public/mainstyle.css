@@ -51,7 +51,25 @@
 }
 
 .downloadsMainSection {
-	
+	width: 100%;
+	height: 400px;
+	background-color: rgb(50,23,24);
+}
+
+.bookmarks {
+	width: 500px;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+
+.bookmarkLink {
+	width: 200px;
+	text-align: center;
+	vertical-align: middle;
+	height: 50px;
+	background-color: rgb(200,200,200);
+	float: left;
+	margin: 0 20px;
 }
 
 .whoWeAreTitle {
