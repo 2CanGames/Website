@@ -59,6 +59,12 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
+.downloadsBackgroundImage {
+	position: absolute;
+	clip-path: polygon(0 0, 100% 0, 100% 440px, 0 440px);
+	z-index:-1;
+}
+
 .downloadsMainSection {
 	width: 95%;
 	height: 400px;
