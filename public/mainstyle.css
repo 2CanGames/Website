@@ -236,3 +236,43 @@
 	margin: 0 auto;
 	padding: 10px 0;
 }
+
+.blogPiece {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+}
+
+.title {
+	padding-bottom: 5px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.date {
+	padding-bottom: 20px;
+}
+
+.description {
+	padding-bottom: 50px;
+}
+
+.descriptionBetweenPictures {
+	padding: 10px 0;
+}
+
+.wholeLengthImage {
+	width: 800px;
+	padding: 10px 0;
+}
+
+.quarterLengthImage {
+	width: 194px;
+}
+
+.thirdLengthImage {
+	width: 261px;
+	margin: 0 auto;
+}
